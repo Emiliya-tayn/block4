@@ -161,7 +161,7 @@ a {
 }
 .info {
     flex-basis: 100%;
-    margin: 24px 16px 24px 24px;
+    margin: 24px 16px 24px 20px;
 }
 .info__text {
     font-size: 14px;
@@ -283,17 +283,20 @@ a {
     }
     .content-info{
         flex-basis: 47%;
+        margin-left: -16px;
     }
     .main-image {
         flex-basis: 52%;
     }
+
     .scroll-menu-container {
-        justify-content: center;
+        margin: auto;
     }
     .scroll-menu {
         flex-wrap: wrap;
-        justify-content: center;
-        align-content: flex-start;
+    }
+    .scroll-menu__item{
+        margin-top: 10px;
     }
     .scroll-menu__item:first-child,
     .scroll-menu__item:nth-child(5){
@@ -322,7 +325,7 @@ a {
         margin-right: 8px;
     }
     .info {
-        margin-left: 0;
+        /*margin-left: 0;*/
     }
 
 }
