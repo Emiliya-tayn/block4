@@ -124,8 +124,16 @@ a {
 }
 .scroll-menu-container {
     display: flex;
+    position: relative;
 }
-
+.blur {
+    position: absolute;
+    height: 40px;
+    width: 24px;
+    filter: blur(1px);
+    right: 0;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+}
 .scroll-menu {
     display: flex;
     justify-content: space-between;
@@ -288,7 +296,9 @@ a {
     .main-image {
         flex-basis: 52%;
     }
-
+    .blur {
+        display: none;
+    }
     .scroll-menu-container {
         margin: auto;
     }
