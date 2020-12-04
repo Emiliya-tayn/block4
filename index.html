@@ -3,55 +3,46 @@
 <head>
     <title>Услуги и сервисы</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="src/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body>
     <div class="container">
             <header class="header">
-                <nav class="header-menu">
-                    <div class="small-menu-block">
-                        <ul class="small-menu">
-                            <li class="small-menu__item">
-                                <a class="small-menu__link" href="#">
-                                    <img class="small-menu__image" src="image/burger.svg" alt="burger">
-                                </a>
-                            </li>
-                            <li class="small-menu__item">
-                                 <img class="small-menu__image" src="image/Group.png" alt="logo">
+                <nav class="header-nav">
 
-                            </li>
-                        </ul>
+                    <div class="header-menu">
+                        <div class="header-menu__btn-wrapper">
+                            <button class="header-btn header-menu__btn_theme-menu" type="button"></button>
+                        </div>
+                        <div class="logo">
+                            <a class="logo__link" href="#">
+                                <img class="logo__image" src="src/image/Group.png" alt="logo">
+                            </a>
+                       </div>
                     </div>
-                    <div class="big-repair-block">
-                        <ul class="big-menu">
-                            <li class="big-menu__item">
-                                <a class="big-menu__link" href="#">
-                                    <img class="big-menu__image" src="image/call.svg" alt="call"></a>
+
+                    <div class="lists">
+                        <ul class="tablet-list">
+                            <li class="tablet-list__item">
+                                <button class="header-btn tablet-list__btn_theme-call" type="button"></button>
                             </li>
-                            <li class="big-menu__item">
-                                 <a class="big-menu__link" href="#">
-                                    <img class="big-menu__image" src="image/chat.svg" alt="chat">
-                                </a>
-                            </li>
-                            <li class="big-menu__item">
-                                <a class="big-menu__link" href="#">
-                                    <img class="big-menu__image" src="image/profile.svg" alt="profile">
-                                </a>
+                            <li class="tablet-list__item">
+                                <button class="header-btn tablet-list__btn_theme-chat" type="button"></button>
+                             </li>
+                            <li class="tablet-list__item">
+                                <button class="header-btn tablet-list__btn_theme-profile" type="button"></button>
                             </li>
                         </ul>
-                        <ul class="repair-menu">
-                            <li class="repair-menu__item">
-                                <a class="repair-menu__link" href="#">
-                                    <img class="repair-menu__image" src="image/repair.svg" alt="repair">
-                                </a>
+
+                        <ul class="mobile-list">
+                            <li class="mobile-list__item">
+                                <button class="header-btn mobile-list__btn_theme-repair" type="button"></button>
                             </li>
-                            <li class="repair-menu__item">
-                                 <a class="repair-menu__link" href="#">
-                                    <img class="repair-menu__image" src="image/checkstatus.svg" alt="checkstatus">
-                                </a>
+                            <li class="mobile-list__item">
+                                <button class="header-btn mobile-list__btn_theme-check" type="button"></button>
                             </li>
-                         </ul>
+                        </ul>
                     </div>
                 </nav>
             </header>
@@ -60,17 +51,17 @@
                 <div class="title-str">
                     <h1 class="title-str__title">Услуги и сервисы</h1>
                     <div class="desktop-menu">
-                        <div class="option">
-                            <a class="option__link" href="#">
+                        <div class="tool">
+                             <label class="option">
                                 <span class="option__text">Оставить заявку</span>
-                                <img class="option__image" src="image/repair.svg" alt="repair">
-                            </a>
+                                <button class="header-btn option__btn_theme-repair" type="button"></button>
+                             </label>
                         </div>
-                        <div class="option">
-                            <a class="option__link" href="#">
+                        <div class="tool">
+                            <label class="option">
                                 <span class="option__text">Статус ремонта</span>
-                                <img class="option__image" src="image/checkstatus.svg" alt="checkstatus">
-                            </a>
+                                <button class="header-btn option__btn_theme-check" type="button"></button>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -78,7 +69,7 @@
                     <div class="blur"></div>
                     <ul class="scroll-menu">
                         <li class="scroll-menu__item">
-                            <a class="scroll-menu_link" href="#">Ремонтируемые бренды</a>
+                            <a class="scroll-menu__link" href="#">Ремонтируемые бренды</a>
                         </li>
                         <li class="scroll-menu__item">
                             <a class="scroll-menu__link" href="#">Ремонтируемые устройства</a>
@@ -109,14 +100,14 @@
                             </p>
                         </div>
                         <div class="read-more">
-                        <a class="read-more__link" href="#">
-                            <img class="read-more__image" src="image/icon.svg" alt="read-more">
-                            <span class="read-more__text">Читать далее</span>
-                        </a>
+                            <label class="read-more__option">
+                                <button class="read-more__btn"></button>
+                                <span class="read-more__text">Читать далее</span>
+                            </label>
                         </div>
                     </div>
                     <div class="main-image">
-                        <img class="main-image__image" src="image/MG3223.jpg" alt="main-image">
+                        <img class="main-image__image" src="src/image/MG3223.jpg" alt="main-image">
                     </div>
                 </div>
             </main>
