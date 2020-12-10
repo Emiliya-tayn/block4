@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49025217-0e2e-4f2e-8e3a-a06303b24fd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mobile_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/burger.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/call.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/chat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/checkstatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/checkstatus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/profile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/repair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/repair.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +86,7 @@
       <workItem from="1607089525131" duration="1002000" />
       <workItem from="1607231015111" duration="20988000" />
       <workItem from="1607269945245" duration="3013000" />
-      <workItem from="1607575735774" duration="17399000" />
+      <workItem from="1607575735774" duration="18511000" />
     </task>
     <servers />
   </component>

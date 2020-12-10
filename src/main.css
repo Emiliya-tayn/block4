@@ -29,7 +29,7 @@ body {
 @media only screen and (min-width: 1120px){
     .container {
         background-color: #F8F8F8;
-        width: 1120px;
+        max-width: 1120px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -441,10 +441,7 @@ body {
     .scroll-menu__item:nth-child(3) {
         display: none;
     }
-    .scroll-menu__item:nth-child(6) {
-        flex-grow: 1;
-        flex-shrink: 1;
-    }
+
     .desktop-menu {
         display: flex;
         flex-basis: 40%;
