@@ -20,28 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49025217-0e2e-4f2e-8e3a-a06303b24fd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/block4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/block4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mobile_menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/TTLakes-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/TTLakes-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/MG3223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/call.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/chat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/checkstatus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/divider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/highlight.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/profile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/repair.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/call.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/checkstatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/checkstatus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/repair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/repair.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,10 +55,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admib\Desktop\block4\src" />
+      <recent name="C:\Users\Admib\Desktop\block5" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +92,10 @@
       <workItem from="1607061040102" duration="5563000" />
       <workItem from="1607071706561" duration="360000" />
       <workItem from="1607074224721" duration="14507000" />
-      <workItem from="1607089525131" duration="955000" />
+      <workItem from="1607089525131" duration="1002000" />
+      <workItem from="1607231015111" duration="20988000" />
+      <workItem from="1607269945245" duration="3013000" />
+      <workItem from="1607575735774" duration="17399000" />
     </task>
     <servers />
   </component>
@@ -111,6 +123,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607089843146" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607590644450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607590644450" />
+    <state x="752" y="379" key="scopes" timestamp="1607232468166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="379" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1607232468166" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606401060080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
