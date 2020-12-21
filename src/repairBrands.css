@@ -1,0 +1,102 @@
+.repair-brands {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .repair-brands {
+        display: block;
+    }
+    .repair-brands__title {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #D9FFF5;;
+        text-transform: uppercase;
+        color: #7E7E82;
+        background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+        margin-bottom: 6px;
+        padding: 16px 16px 16px 24px;
+    }
+    .repair-brands-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .repair-brands-list__item {
+        background-color: white;
+        width: 224px;
+        height: 72px;
+        margin-left: 24px;
+        margin-top: 10px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .repair-brands-list__item:nth-child(4),
+    .repair-brands-list__item:nth-child(8) {
+        display: none;
+    }
+    .repair-brands-list__item_lenovo {
+        background: no-repeat 16px center url("image/brands/lenovo.svg") white;
+    }
+    .repair-brands-list__item_samsung {
+        background: no-repeat 16px center url("image/brands/samsung.svg") white;
+    }
+    .repair-brands-list__item_apple {
+        background: no-repeat 16px center url("image/brands/apple.svg") white;
+    }
+    .repair-brands-list__item_view-sonic {
+        background: no-repeat 16px center url("image/brands/veiwsonic.svg") white;
+    }
+    .repair-brands-list__item_bosch {
+        background: no-repeat 16px center url("image/brands/bosch.svg") white;
+    }
+    .repair-brands-list__item_hp {
+        background: no-repeat 16px center url("image/brands/hp.svg") white;
+    }
+    .repair-brands-list__item_acer {
+        background: no-repeat 16px center url("image/brands/acer.svg") white;
+    }
+    .repair-brands-list__item_sony {
+        background: no-repeat 16px center url("image/brands/sony.svg") white;
+    }
+    .repair-brands-list__link {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #FF3E79;
+        position: absolute;
+        right: 18px;
+        top: 14px;
+    }
+
+    .repair-brands-list__link::before,
+    .repair-brands-list__link::after {
+        content: "";
+        width: 2px;
+        height: 9px;
+        background-color: #FF3E79;
+        position: absolute;
+        right: 18px;
+    }
+
+    .repair-brands-list__link::before {
+        transform: rotate(55deg);
+        top: 17px;
+    }
+
+    .repair-brands-list__link::after {
+        transform: rotate(-55deg);
+        top: 13px;
+    }
+    .repair-brands__look-more {
+        margin: 24px 0 16px 28px;
+    }
+    .repair-brands-look-more__btn {
+        outline: none;
+        border: none;
+        width: 132px;
+        height: 24px;
+        background-color: rgba(248,248,248, 1);
+        font-family: TTLakes,sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+}

@@ -1,0 +1,95 @@
+@media only screen and (min-width: 768px) {
+    .swiper {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1120px) {
+    .swiper {
+        display: none;
+    }
+}
+.repair-brands-container {
+    min-height: 110px;
+}
+.swiper__title {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #D9FFF5;;
+    text-transform: uppercase;
+    color: #7E7E82;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    margin-bottom: 16px;
+    padding: 16px;
+}
+.swiper-container__blur {
+    position: absolute;
+    height: 74px;
+    width: 48px;
+    filter: blur(3px);
+    right: 0;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    z-index: 2;
+}
+.swiper-slide{
+    max-width: 270px;
+}
+.swiper-slide__item {
+    position: relative;
+    height: 72px;
+    width: 240px;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+.swiper-slide__item_lenovo {
+    background: no-repeat 16px center url("image/brands/lenovo.svg") white;
+}
+.swiper-slide__item_samsung {
+    background: no-repeat 16px center url("image/brands/samsung.svg") white;
+}
+.swiper-slide__item_apple {
+    background: no-repeat 16px center url("image/brands/apple.svg") white;
+}
+.swiper-slide__item_bosch {
+    background: no-repeat 16px center url("image/brands/bosch.svg") white;
+}
+.swiper-slide__item_hp {
+    background: no-repeat 16px center url("image/brands/hp.svg") white;
+}
+.swiper-slide__item_acer {
+    background: no-repeat 16px center url("image/brands/acer.svg") white;
+}
+.swiper-slide__item_view-sonic {
+    background: no-repeat 16px center url("image/brands/veiwsonic.svg") white;
+}
+.swiper-slide__link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FF3E79;
+    position: absolute;
+    right: 18px;
+    top: 14px;
+}
+
+.swiper-slide__link::before,
+.swiper-slide__link::after {
+    content: "";
+    width: 2px;
+    height: 9px;
+    background-color: #FF3E79;
+    position: absolute;
+    right: 18px;
+}
+
+.swiper-slide__link::before {
+    transform: rotate(55deg);
+    top: 17px;
+}
+
+.swiper-slide__link::after {
+    transform: rotate(-55deg);
+    top: 13px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #949499 !important;
+}
