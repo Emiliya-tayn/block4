@@ -16,4 +16,5 @@ burgerOpen.addEventListener('click', function (evt){
 burgerClose.addEventListener('click', function (){
     mobileMenu.classList.remove('mobile-menu_show');
     hiddenWrapper.classList.remove('container_hidden');
+    page.classList.remove('body_unscrollable');
 })
