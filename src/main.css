@@ -18,6 +18,7 @@
 body {
     font-family: TTLakes, sans-serif;
     background-color: #F8F8F8;
+    overflow: auto;
 }
 
 .container {
@@ -25,7 +26,6 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    overflow: auto;
 }
 @media only screen and (min-width: 1120px){
     .container {
@@ -93,6 +93,11 @@ body {
     border-radius: 50%;
     outline: none;
 }
+.btn_theme {
+    background-color: #FF3E79;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
 .header-btn:hover {
     transform: scale(1.2);
     transition-property: transform;
@@ -104,8 +109,6 @@ body {
 }
 .header-menu__btn_theme-menu {
     background-image: url("image/burger.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
     background-position: 10px 12px;
 }
 .header-menu::after {
@@ -144,21 +147,13 @@ body {
  }
 .tablet-list__btn_theme-call {
     background-image: url("image/call.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
 }
 .tablet-list__btn_theme-chat {
     background-image: url("image/chat.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
+
 }
 .tablet-list__btn_theme-profile {
     background-image: url("image/profile.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
 }
 .mobile-list {
     display: flex;
@@ -174,14 +169,9 @@ body {
 }
 .mobile-list__btn_theme-repair {
     background-image: url("image/repair.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
 }
 .mobile-list__btn_theme-check {
     background-image: url("image/checkstatus.svg");
-    background-color: #FF3E79;
-    background-repeat: no-repeat;
     background-position: 12px 10px;
 }
 .mobile-list__item:nth-child(1) {

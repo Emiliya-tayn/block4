@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="src/mobile_menu.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
-<body>
+<body class="body">
     <div class="container">
         <header class="header">
              <nav class="header-wrapper">
                  <div class="header-menu">
                       <div class="header-menu__btn-wrapper">
-                            <button class="header-btn header-menu__btn_theme-menu" type="button"></button>
+                            <button class="header-btn header-menu__btn_theme-menu btn_theme" type="button"></button>
                       </div>
                       <div class="logo">
                             <a class="logo__link" href="#">
@@ -26,22 +26,22 @@
                  <div class="lists">
                     <ul class="tablet-list">
                         <li class="tablet-list__item">
-                            <button class="header-btn tablet-list__btn_theme-call" type="button"></button>
+                            <button class="header-btn tablet-list__btn_theme-call btn_theme" type="button"></button>
                         </li>
                         <li class="tablet-list__item">
-                            <button class="header-btn tablet-list__btn_theme-chat" type="button"></button>
+                            <button class="header-btn tablet-list__btn_theme-chat btn_theme" type="button"></button>
                         </li>
                         <li class="tablet-list__item">
-                            <button class="header-btn tablet-list__btn_theme-profile" type="button"></button>
+                            <button class="header-btn tablet-list__btn_theme-profile btn_theme" type="button"></button>
                         </li>
                     </ul>
 
                     <ul class="mobile-list">
                         <li class="mobile-list__item">
-                            <button class="header-btn mobile-list__btn_theme-repair" type="button"></button>
+                            <button class="header-btn mobile-list__btn_theme-repair btn_theme" type="button"></button>
                         </li>
                         <li class="mobile-list__item">
-                            <button class="header-btn mobile-list__btn_theme-check" type="button"></button>
+                            <button class="header-btn mobile-list__btn_theme-check btn_theme" type="button"></button>
                         </li>
                     </ul>
                  </div>
@@ -55,13 +55,13 @@
                     <div class="tool">
                         <label class="option">
                             <span class="option__text">Оставить заявку</span>
-                            <button class="header-btn option__btn_theme-repair" type="button"></button>
+                            <button class="header-btn option__btn_theme-repair btn_theme" type="button"></button>
                         </label>
                     </div>
                     <div class="tool">
                         <label class="option">
                                 <span class="option__text">Статус ремонта</span>
-                                <button class="header-btn option__btn_theme-check" type="button"></button>
+                                <button class="header-btn option__btn_theme-check btn_theme" type="button"></button>
                         </label>
                     </div>
                 </div>
@@ -108,82 +108,81 @@
                     <img class="main-image__image" src="src/image/MG3223.jpg" alt="main-image">
                 </div>
             </div>
-
-            <div class="mobile-menu">
-                <div class="header-mobile-menu-wrapper">
-                    <div class="header-mobile-menu">
-                        <button class="header-btn header-mobile-menu__btn" type="button" ></button>
-                           <div class="logo">
-                               <a class="logo__link" href="#">
-                                   <img class="logo__image" src="src/image/Group.png" alt="logo">
-                               </a>
-                           </div>
-                        <button class="header-btn header-mobile-menu__btn_theme-search" type="button"></button>
-                    </div>
+        </main>
+    </div>
+    <div class="mobile-menu">
+        <div class="header-mobile-menu-wrapper">
+            <div class="header-mobile-menu header-mobile-menu-wrapper__header-mobile-menu">
+                <button class="header-btn header-mobile-menu__btn" type="button" ></button>
+                <div class="logo header-mobile-menu__logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__image" src="src/image/Group.png" alt="logo">
+                    </a>
                 </div>
-                <div class="mobile-menu-wrapper">
-                    <div class="mobile-menu-lists">
-                        <ul class="mobile-options">
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Ремонт техники</a>
-                            </li>
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#"> Услуги и сервисы </a>
-                            </li>
+                <button class="header-btn header-mobile-menu__btn_theme-search" type="button"></button>
+            </div>
+        </div>
+        <div class="mobile-menu-wrapper">
+            <div class="mobile-menu-lists">
+                <ul class="mobile-options">
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Ремонт техники</a>
+                    </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#"> Услуги и сервисы </a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Корпоративным клиентам</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Корпоративным клиентам</a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Продавцам техники</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Продавцам техники</a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Партнерам</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Партнерам</a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Производителям</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Производителям</a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Наши сервисные центры</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Наши сервисные центры</a>
+                    </li>
 
-                            <li class="mobile-options__item">
-                                <a class="mobile-options__link" href="#">Контакты</a>
-                            </li>
+                    <li class="mobile-options__item">
+                        <a class="mobile-options__link" href="#">Контакты</a>
+                    </li>
 
-                        </ul>
-                    </div>
-                    <div class="contacts">
-                        <ul class="tablet-list">
-                            <li class="tablet-list__item">
-                                <button class="header-btn tablet-list__btn_theme-call" type="button"></button>
-                            </li>
-                            <li class="tablet-list__item">
-                                <button class="header-btn tablet-list__btn_theme-chat" type="button"></button>
-                            </li>
-                            <li class="tablet-list__item">
-                                <button class="header-btn tablet-list__btn_theme-profile" type="button"></button>
-                            </li>
-                        </ul>
-                        <div class="contacts__email">mail@cps.com</div>
-                        <div class="contacts__phone">8 800 890 8900</div>
-                    </div>
-                    <div class="languages">
-                        <button class="languages__btn" type="button">ru</button>
-                        <button class="languages__btn" type="button">en</button>
-                        <button class="languages__btn" type="button">ch</button>
-                    </div>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul class="tablet-list">
+                    <li class="tablet-list__item contacts__tablet-list-item">
+                        <button class="header-btn tablet-list__btn_theme-call btn_theme" type="button"></button>
+                    </li>
+                    <li class="tablet-list__item contacts__tablet-list-item">
+                        <button class="header-btn tablet-list__btn_theme-chat btn_theme" type="button"></button>
+                    </li>
+                    <li class="tablet-list__item contacts__tablet-list-item">
+                        <button class="header-btn tablet-list__btn_theme-profile btn_theme" type="button"></button>
+                    </li>
+                </ul>
+                <div class="contacts__email">
+                    <a class="contacts__link" href="mailto:">mail@cps.com </a>
+                </div>
+                <div class="contacts__phone">
+                    <a class="contacts__link" href="tel:">8 800 890 8900</a>
                 </div>
             </div>
-
-
-
-
-        </main>
+            <div class="languages">
+                <button class="languages__btn" type="button">ru</button>
+                <button class="languages__btn" type="button">en</button>
+                <button class="languages__btn" type="button">ch</button>
+            </div>
+        </div>
     </div>
     <script src="src/script.js"></script>
 </body>
