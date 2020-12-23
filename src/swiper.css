@@ -15,8 +15,8 @@
 .swiper-container__blur {
     position: absolute;
     height: 74px;
-    width: 48px;
-    filter: blur(3px);
+    width: 18px;
+    filter: blur(4px);
     right: 0;
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
     z-index: 2;
@@ -106,7 +106,7 @@
     }
     .swiper__wrapper {
         flex-wrap: wrap;
-        max-width: 720px !important;
+        width: 720px !important;
     }
     .swiper-slide{
         max-width: 240px;
@@ -129,7 +129,7 @@
         display: flex;
         width: 768px;
     }
-    .swiper-look-more_left {
+    .swiper-look-more_move {
         margin-bottom: 16px;
         margin-top: 14px;
     }
@@ -168,10 +168,17 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .swiper-slide{
+        max-width: 264px;
+    }
     .swiper__slide:nth-child(4) {
         display: block;
     }
     .swiper__slide:nth-child(8) {
         display: block;
     }
+    .swiper-slide__item {
+        width: 240px;
+    }
+
 }
